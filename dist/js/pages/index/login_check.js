@@ -9,7 +9,7 @@
         }
     }
     function checkPassword(password) {
-        var regPassword = /^[a-zA-Z0-9]{6,12}$/;
+        var regPassword = /^[a-zA-Z0-9]{6,18}$/;
         if(regPassword.test(password)){
             return true;
         }else{
